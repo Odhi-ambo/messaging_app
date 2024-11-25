@@ -5,6 +5,24 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+    //logo
+
+
+    //welcome back msg!
+
+
+    //email textfield
+
+    //password textfield
+
+    //login button
+
+    //forgot password
+
+    //register button
+
+    
+    );
   }
 }
