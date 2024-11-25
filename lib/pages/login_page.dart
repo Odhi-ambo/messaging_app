@@ -9,6 +9,7 @@ class LoginPage extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.surface,
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             //logo
             Center(
