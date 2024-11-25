@@ -6,13 +6,14 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: SafeArea(
         child: Column(
           children: [
             //logo
             Center(
                 child: Icon(Icons.message,
-                    size: 100, color: Colors.blue.shade900)),
+                    size: 100, color: Theme.of(context).colorScheme.primary)),
 
             //welcome back msg!
 
