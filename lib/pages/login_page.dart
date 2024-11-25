@@ -6,23 +6,24 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    //logo
+      body: Column(
+        children: [
+          //logo
+          Icon(Icons.message, size: 100, color: Colors.blue.shade900),
 
+          //welcome back msg!
 
-    //welcome back msg!
+          //email textfield
 
+          //password textfield
 
-    //email textfield
+          //login button
 
-    //password textfield
+          //forgot password
 
-    //login button
-
-    //forgot password
-
-    //register button
-
-    
+          //register button
+        ],
+      ),
     );
   }
 }
