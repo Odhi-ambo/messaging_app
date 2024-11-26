@@ -6,10 +6,11 @@ class MyTextfield extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      decoration: InputDecoration(
-          enabledBorder: OutlineInputBorder(
-              borderSide:
-                  BorderSide(color: Theme.of(context).colorScheme.tertiary))),
-    );
+        decoration: InputDecoration(
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Theme.of(context).colorScheme.tertiary),
+      ),
+      focusedBorder: OutlineInputBorder(),
+    ));
   }
 }
