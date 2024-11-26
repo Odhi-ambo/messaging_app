@@ -30,6 +30,7 @@ class LoginPage extends StatelessWidget {
             ),
 
             //email textfield
+            TextField()
 
             //password textfield
 
