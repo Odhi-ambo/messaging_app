@@ -14,9 +14,14 @@ class LoginPage extends StatelessWidget {
             //logo
             Center(
                 child: Icon(Icons.message,
-                    size: 100, color: Theme.of(context).colorScheme.primary)),
+                    size: 100,
+                    color: Theme.of(context).colorScheme.inversePrimary)),
 
             //welcome back msg!
+            Text('Welcome Back!',
+                style: TextStyle(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontSize: 30)),
 
             //email textfield
 
