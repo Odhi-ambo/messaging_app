@@ -10,7 +10,8 @@ class MyTextfield extends StatelessWidget {
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(color: Theme.of(context).colorScheme.tertiary),
       ),
-      focusedBorder: OutlineInputBorder(),
+      focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.primary)),
     ));
   }
 }
