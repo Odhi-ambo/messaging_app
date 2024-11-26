@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messaging_app/components/my_textfield.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -30,7 +31,7 @@ class LoginPage extends StatelessWidget {
             ),
 
             //email textfield
-            TextField()
+            MyTextfield()
 
             //password textfield
 
