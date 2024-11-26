@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
                 child: Icon(Icons.message,
                     size: 100,
                     color: Theme.of(context).colorScheme.inversePrimary)),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
 
@@ -25,7 +25,7 @@ class LoginPage extends StatelessWidget {
                 style: TextStyle(
                     color: Theme.of(context).colorScheme.primary,
                     fontSize: 30)),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
 
