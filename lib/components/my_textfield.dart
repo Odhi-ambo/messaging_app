@@ -5,13 +5,17 @@ class MyTextfield extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
-        decoration: InputDecoration(
-      enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Theme.of(context).colorScheme.tertiary),
-      ),
-      focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: Theme.of(context).colorScheme.primary)),
-    ));
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: TextField(
+          decoration: InputDecoration(
+        enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Theme.of(context).colorScheme.tertiary),
+        ),
+        focusedBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Theme.of(context).colorScheme.primary)),
+      )),
+    );
   }
 }
