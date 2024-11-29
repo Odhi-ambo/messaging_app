@@ -12,6 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+          
             //logo
             Center(
                 child: Icon(Icons.message,
