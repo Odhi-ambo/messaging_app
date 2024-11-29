@@ -9,6 +9,8 @@ class LoginPage extends StatelessWidget {
   LoginPage({
     super.key,
   });
+  //login function
+  void login() {}
 
   @override
   Widget build(BuildContext context) {
@@ -57,10 +59,8 @@ class LoginPage extends StatelessWidget {
 
             //login button
             MyButton(
-              text:'Login',
-              onTap: () {
-                //login button on pressed
-              },
+              text: 'Login',
+              onTap: login,
             )
 
             //forgot password
