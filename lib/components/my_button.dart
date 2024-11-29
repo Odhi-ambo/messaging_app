@@ -12,9 +12,9 @@ class MyButton extends StatelessWidget {
         color: Theme.of(context).colorScheme.secondary,
         borderRadius: BorderRadius.circular(15),
       ),
-      padding: EdgeInsets.all(10),
+      padding: EdgeInsets.all(15),
       margin: EdgeInsets.symmetric(
-        horizontal: 20,
+        horizontal: 25,
       ),
       child: Center(child: Text('Button')),
     );
