@@ -73,6 +73,7 @@ class LoginPage extends StatelessWidget {
 
             //not a member? sign up
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text('Not a member?'),
                 Text('Register now'),
