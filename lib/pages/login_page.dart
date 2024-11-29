@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
               controller: emailController,
             ),
             const SizedBox(
-              height: 8,
+              height: 2,
             ),
 
             //password textfield
@@ -54,7 +54,7 @@ class LoginPage extends StatelessWidget {
                 controller: passwordController,
                 obscureText: true),
             const SizedBox(
-              height: 8,
+              height: 12,
             ),
 
             //login button
