@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class MyButton extends StatelessWidget {
-  const MyButton({super.key});
+  final String text;
+  const MyButton({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +18,8 @@ class MyButton extends StatelessWidget {
       margin: EdgeInsets.symmetric(
         horizontal: 25,
       ),
-      child: Center(child: Text('Button')),
+      child: Center(child:Text (text),
+      ),
     );
   }
 }
