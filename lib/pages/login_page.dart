@@ -33,9 +33,10 @@ class LoginPage extends StatelessWidget {
             //email textfield
             MyTextfield(
               hintText: 'Enter Email..',
-            )
+            ),
 
             //password textfield
+            MyTextfield(hintText: 'Enter Password..'),
 
             //login button
 
