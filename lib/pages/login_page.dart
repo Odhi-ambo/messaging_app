@@ -58,6 +58,9 @@ class LoginPage extends StatelessWidget {
             //login button
             MyButton(
               text:'Login',
+              onTap: () {
+                //login button on pressed
+              },
             )
 
             //forgot password
