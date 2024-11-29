@@ -56,7 +56,9 @@ class LoginPage extends StatelessWidget {
             ),
 
             //login button
-            MyButton()
+            MyButton(
+              text:'Login',
+            )
 
             //forgot password
 
