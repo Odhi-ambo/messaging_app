@@ -72,7 +72,12 @@ class LoginPage extends StatelessWidget {
             ),
 
             //not a member? sign up
-            Text('Not a member? Register now')
+            Row(
+              children: [
+                Text('Not a member?'),
+                Text('Register now'),
+              ],
+            )
           ],
         ),
       ),
