@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyTextfield extends StatelessWidget {
-  const MyTextfield({super.key});
+  final String hintText;
+  const MyTextfield({super.key, required this.hintText});
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +20,7 @@ class MyTextfield extends StatelessWidget {
           ),
           fillColor: Theme.of(context).colorScheme.secondary,
           filled: true,
+          hintText:hintText ,
           
         ),
       ),
