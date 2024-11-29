@@ -27,12 +27,15 @@ class LoginPage extends StatelessWidget {
                     color: Theme.of(context).colorScheme.primary,
                     fontSize: 30)),
             const SizedBox(
-              height: 25,
+              height: 15,
             ),
 
             //email textfield
             MyTextfield(
               hintText: 'Enter Email..',
+            ),
+            const SizedBox(
+              height: 8,
             ),
 
             //password textfield
