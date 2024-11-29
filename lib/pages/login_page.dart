@@ -34,6 +34,7 @@ class LoginPage extends StatelessWidget {
             MyTextfield(
               hintText: 'Enter Email..',
               obscureText: false,
+              controller: TextEditingController(),
             ),
             const SizedBox(
               height: 8,
@@ -41,6 +42,7 @@ class LoginPage extends StatelessWidget {
 
             //password textfield
             MyTextfield(hintText: 'Enter Password..',
+            controller: TextEditingController(),
             obscureText: true),
 
             //login button
