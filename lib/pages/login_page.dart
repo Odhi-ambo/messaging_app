@@ -61,14 +61,18 @@ class LoginPage extends StatelessWidget {
             MyButton(
               text: 'Login',
               onTap: login,
-            ), 
+            ),
             const SizedBox(
               height: 8,
             ),
 
             //forgot password
+            const SizedBox(
+              height: 15,
+            ),
 
-            //register button
+            //not a member? sign up
+            Text('Not a member? Register now')
           ],
         ),
       ),
