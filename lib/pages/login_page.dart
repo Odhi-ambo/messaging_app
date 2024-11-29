@@ -61,7 +61,10 @@ class LoginPage extends StatelessWidget {
             MyButton(
               text: 'Login',
               onTap: login,
-            )
+            ), 
+            const SizedBox(
+              height: 8,
+            ),
 
             //forgot password
 
