@@ -8,26 +8,27 @@ class RegisterPage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
           child: Column(
-        //logo
-        children: [
-          Center(
-            child: Icon(Icons.message,
-                size: 100, color: Theme.of(context).colorScheme.inversePrimary),
-          ),
-        ],
+              //logo
+              children: [
+            Center(
+              child: Icon(Icons.message,
+                  size: 100,
+                  color: Theme.of(context).colorScheme.inversePrimary),
+            ),
 
-        //welcome msg
+            //welcome msg
+            Text("Let's get started!")
 
-        //email textfield
+            //email textfield
 
-        //password textfield
+            //password textfield
 
-        //confirm password textfield
+            //confirm password textfield
 
-        //register button
+            //register button
 
-        //login button
-      )),
+            //login button
+          ])),
     );
   }
 }
