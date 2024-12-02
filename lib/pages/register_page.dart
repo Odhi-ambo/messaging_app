@@ -58,7 +58,7 @@ class RegisterPage extends StatelessWidget {
                   controller: confirmPasswordController),
 
               //register button
-              MyButton(text: 'Register', onTap: register),
+              MyButton(text: 'Register' , onTap: register),
               const SizedBox(
                 height: 25,
               ),
