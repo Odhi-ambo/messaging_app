@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:messaging_app/auth/login_or_register.dart';
-import 'package:messaging_app/pages/register_page.dart';
 import 'package:messaging_app/themes/light_mode.dart';
 
 void main() {
