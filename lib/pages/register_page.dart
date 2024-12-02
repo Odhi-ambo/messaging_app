@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:messaging_app/components/my_button.dart';
 import 'package:messaging_app/components/my_textfield.dart';
 
 class RegisterPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+  final TextEditingController confirmPasswordController =
+      TextEditingController();
   RegisterPage({super.key});
+//register function
+  void register() {}
 
   @override
   Widget build(BuildContext context) {
@@ -46,13 +51,21 @@ class RegisterPage extends StatelessWidget {
 
             //confirm password textfield
             MyTextfield(
-                hintText: 'Enter password..',
+                hintText: 'Confirm password..',
                 obscureText: true,
-                controller: passwordController)
+                controller: confirmPasswordController),
 
             //register button
+            MyButton(text: 'Register', onTap: register),
+            const SizedBox(
+              height: 10,
+            ),
 
             //login button
+            Text('Not a member?'),
+            Text(' Login here!',
+                style: TextStyle(
+                    color: Theme.of(context).colorScheme.primary, fontSize: 15))
           ])),
     );
   }
