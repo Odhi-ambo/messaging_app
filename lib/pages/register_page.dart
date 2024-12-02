@@ -17,7 +17,11 @@ class RegisterPage extends StatelessWidget {
             ),
 
             //welcome msg
-            Text("Let's get started!")
+            Text(
+              "Let's get started!",
+              style: TextStyle(
+                  color: Theme.of(context).primaryColor, fontSize: 18),
+            )
 
             //email textfield
 
