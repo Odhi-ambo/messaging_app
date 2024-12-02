@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:messaging_app/components/my_textfield.dart';
 
 class RegisterPage extends StatelessWidget {
-  const RegisterPage({super.key});
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,13 +30,25 @@ class RegisterPage extends StatelessWidget {
             ),
             const SizedBox(
               height: 15,
-            )
+            ),
 
             //email textfield
+            MyTextfield(
+                hintText: 'Enter email..',
+                obscureText: false,
+                controller: emailController),
 
             //password textfield
+            MyTextfield(
+                hintText: 'Enter password..',
+                obscureText: true,
+                controller: passwordController),
 
             //confirm password textfield
+            MyTextfield(
+                hintText: 'Enter password..',
+                obscureText: true,
+                controller: passwordController)
 
             //register button
 
