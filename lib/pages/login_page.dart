@@ -76,7 +76,7 @@ class LoginPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Not a member? '),
+                const Text('Not a member? '),
                 Text('Register now',
                     style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
