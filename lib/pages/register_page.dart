@@ -62,7 +62,7 @@ class RegisterPage extends StatelessWidget {
               ),
 
               //login button
-              Row(children: [
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Text('Already have an account?',
                     style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
