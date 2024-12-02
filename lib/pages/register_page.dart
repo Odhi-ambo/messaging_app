@@ -10,8 +10,10 @@ class RegisterPage extends StatelessWidget {
           child: Column(
         //logo
         children: [
-          Icon(Icons.message,
-              size: 100, color: Theme.of(context).colorScheme.inversePrimary),
+          Center(
+            child: Icon(Icons.message,
+                size: 100, color: Theme.of(context).colorScheme.inversePrimary),
+          ),
         ],
 
         //welcome msg
