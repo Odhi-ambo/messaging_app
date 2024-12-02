@@ -14,8 +14,10 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: SafeArea(
         child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             //logo
             children: [
               Center(
@@ -67,7 +69,7 @@ class RegisterPage extends StatelessWidget {
                     style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
                         fontSize: 15)),
-                Text(' Login here!',
+                const Text(' Login here!',
                     style: TextStyle(color: Colors.blue, fontSize: 15)),
               ]),
             ]),
