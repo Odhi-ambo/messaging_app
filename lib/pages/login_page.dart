@@ -19,10 +19,20 @@ class LoginPage extends StatelessWidget {
         children: [
           //background image
           Positioned.fill(
-              child: Image.asset(
-            'lib/images/images.jpg',
-            fit: BoxFit.cover,
-          )),
+            child: Container(
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(colors: [
+                Colors.deepOrange.shade400,
+                Colors.pink.shade300,
+                Colors.purple.shade700,
+                Colors.blue.shade800
+              ])),
+            ),
+            //   child: Image.asset(
+            //  'lib/images/images.jpg',
+            //  fit: BoxFit.cover,
+            //  ),
+          ),
           SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
