@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: lightMode,
       title: 'Messaging App',
       home:  LoginOrRegister(),
+      
     );
   }
 }
